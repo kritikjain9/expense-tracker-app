@@ -1,4 +1,6 @@
 import Expenses from "./components/Expenses/Expenses";
+// import ExpenseForm from "./components/NewExpense/ExpenseForm";
+import NewExpense from "./components/NewExpense/NewExpense";
 
 const App = () => {
   const expenses = [
@@ -25,7 +27,7 @@ const App = () => {
 
   return (
     <div>
-      <h2>Kritik you are a beast</h2>
+      <NewExpense />
       <Expenses items = {expenses}/>
       {/* As int the Expenses.js file, we are accessing the values from 
       this array, then we have to pass it in the props by the same name from

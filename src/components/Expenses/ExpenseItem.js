@@ -7,10 +7,10 @@ import Card from "../UI/Card";
 const ExpenseItem = (props) => {
 
   const [title, setTitle] = useState(props.title);
+  console.log('Isko evaluate kara hai react ne');
 
   const clickHandler = () => {
-    setTitle('Change ho gayiiiii');
-    console.log(title);
+    setTitle('Aaja bhai');
   };
 
   return (
